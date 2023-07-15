@@ -6,11 +6,14 @@ img{
     height: 100%;
 }
 
+
+
+
 .row > div{
 
     flex: 1;
-}
 
+}
 .row{
 
     height: 400px;
@@ -18,12 +21,7 @@ img{
 gap: 10px;
 margin-bottom: 10px;
 }
-/* .row-2{
 
-height:100%;
-display: flex;
-
-} */
 
 .vertical-collage img {
 height: 50%;
@@ -35,12 +33,14 @@ height: 50%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
+  
 }
 /* responsive media enquary */
 @media screen and(max-width:576px) {
     
 .row{
     flex-direction: column;
+    height: auto;
 }
 .square-collage{
 grid-template-columns: 1,1fr;
@@ -48,3 +48,7 @@ grid-template-columns: 1,1fr;
 }
 
 }
+/* mediam device */
+@media screen and (min-width:576px) and (max-width:992px){
+    
+}.row
